@@ -1,0 +1,602 @@
+.allcontent{
+  width:1300px;
+  margin: 0 auto;
+  font-family: "Open Sans";
+  font-size: 12px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald";
+
+}
+ul  {
+  list-style: none;
+
+}
+
+img{
+max-width: 100%;
+}
+
+header{
+  background: url(images/wave.jpg); fixed center no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 525px;
+
+}
+.header-surf{
+  position: relative;
+}
+.header-surf::before{
+  content: "";
+  position:absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(32, 109, 179, .9);
+  z-index: 9999;
+}
+.header-surf:hover::before{
+  background-color: rgba(0, 0, 0, 0);
+}
+.headers{
+  position: absolute;
+  bottom: 213px;
+  letter-spacing: 18px;
+  width: 100%;
+  min-width: 800px;
+}
+.header-heading1 {
+margin: 0 auto;
+text-align: center;
+font-size: 78px;
+color: white;
+}
+.header-heading2 {
+  margin: 0 auto;
+  text-align: center;
+  font size: 13px;
+  color: #12334D;
+  font-family: "Source Sans Pro";
+}
+.header-nav{
+  position: relative;
+  margin-left: 127px;
+  margin-right: 141px;
+}
+.header-list-1{
+  display: inline-block;
+  float: left;
+  width: 258px;
+  height: 48px;
+}
+.header-list-blog{
+  display: inline-block;
+  position: relative;
+vertical-align: middle;
+}
+.header-list-icon-wave{
+  display:inline-block;
+width: 49px;
+height: 46px;
+}
+.logo{
+  height: 48px;
+    max-width: 100%;
+    width: 51px;
+
+}
+.header-list-icon-wave-text{
+  text-align: right;
+width: 194px;
+position: absolute;
+top: 17px;
+left: 0px;
+}
+.header-list-2{
+  display: inline-block;
+  position: relative;
+  float: right;
+  width: 189px;
+  height: 48px;
+  top:14px;
+}
+
+.header-list-2 li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header-list-2-about{
+  margin-left: 6px;
+}
+.header-list-2-search{
+  text-align: right;
+}
+.icon-glass{
+  position: relative;
+  right: 2px;
+}
+.header-list-2-icon-glass{
+  display: inline-block;
+}
+.main-content{
+  margin: 65px auto auto auto;
+    height: 983px;
+    min-width: 1300px;
+    position: relative;
+
+}
+.page-content{
+  width: 614px;
+  height: 813px;
+  float: left;
+  margin-left: 162px;
+  position: relative;
+}
+
+
+.sidebar{
+  width: 281px;
+  height: 755px;
+  float: right;
+  margin-right: 162px;
+}
+.content-header1{
+  margin: 0 auto;
+  font-size: 57px;
+  color: RGBA(13, 51, 82, 1);
+}
+.sidebar-top-logo{
+  position: relative;
+  margin-top: 10px;
+  height: 188px;
+}
+.avatar{
+  height: 84px;
+  display: block;
+    width: 84px;
+    border-radius: 100%;
+    margin: 0 auto;
+    position: relative;
+    background: url(http://www.gannett-cdn.com/-mm-/baa7d5ece890abc8f1f017098398d44043c63dc6/r=84&c=84x84/http/videos.usatoday.net/Brightcove2/29906170001/2015/08/29906170001_4409989897001_thumb-Mobilenewslook870663.jpg?pubId=37906156001); fixed center no-repeat;
+
+}
+.avatar::before{
+  content: "";
+  position: absolute;
+  height: 84px;
+  width: 84px;
+  background-color: rgba(32, 109, 179, .5);
+  border-radius: 100%;
+  z-index: 9999;
+}
+.avatar:hover::before{
+  background-color: rgba(0, 0, 0, 0);
+}
+.avatar-name{
+display: block;
+text-align: center;
+margin-top: 15px;
+font-size: 12px;
+color: RGBA(32, 109, 179, 1);
+}
+.social-media{
+  display: block;
+  text-align: center;
+  margin-top: 13px;
+  font-size: 11px;
+  color: RGBA(200, 209, 216, 1);
+}
+.social{
+  display: inline-block;
+  padding: 0 10px;
+}
+.social:not(:last-child){
+  border-right: 1px solid grey;
+}
+.sidebar-ad{
+  width: 278px;
+  height: 324px;
+  margin: auto;
+  position: relative;
+}
+.ad-img{
+  background: url(http://lorempixel.com/400/300/sports/Dummy-Text/); fixed center center no-repeat;
+  width: 278px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+.ad-img::before{
+  content: "";
+  position: absolute;
+  height: 300px;
+  width: 278px;
+  background-color: rgba(32, 109, 179, .5);
+  z-index: 9999;
+}
+.ad-img:hover::before{
+  background-color: rgba(0, 0, 0, 0);
+}
+.about-ad{
+  float: right;
+    border-bottom: 1px solid RGBA(163, 179, 191, 1);
+    font-size: 12px;
+      color: RGBA(163, 179, 191, 1);
+  }
+.sidebar-header-content{
+  margin-top: 48px;
+  color: RGBA(163, 179, 191, 1);
+}
+.s-header{
+  margin-bottom: 17px;
+  margin-left: 0;
+  color: RGBA(32, 109, 179, 1);
+}
+.t-d-i-n{
+  position: relative;
+}
+.time-date-content{
+  display: block;
+  position: relative;
+  height: 74px;
+  font-size: 10px;
+}
+.t-d-icon-name{
+  vertical-align: middle;
+  display: inline-block;
+  padding-top: 13px;
+}
+.t-d-icon-little{
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  padding-right: 6px;
+  position: relative;
+  background: url(http://www.placecage.com/25/25); fixed center no-repeat;
+  border-radius: 100%;
+  }
+.t-d-icon-little::after{
+  content: "";
+  padding-right: 6px;
+  border-radius: 100%;
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  background-color: rgba(32, 109, 179, .5);
+}
+.t-d-name{
+  display: inline-block;
+  color: RGBA(32, 109, 179, 1);
+  width: 60px;
+  padding-top: 7px;
+  vertical-align: middle;
+}
+
+.time-date{
+  display: inline-block;
+  margin-left: 5px;
+  color: RGBA(175, 188, 199, 1);
+  padding-top: 7px;
+  vertical-align: middle;
+}
+.timeanddate{
+  border-bottom: 1px solid RGBA(175, 188, 199, 1);
+}
+.woah{
+  height: 35px;
+  width: 100%;
+  margin-left: 6px;
+  font-size: 20px;
+  color: RGBA(32, 109, 179, 1);
+  border-left: 1px solid RGBA(211, 211, 211, 1);
+}
+article{
+    position: relative;
+    color: RGBA(94, 104, 111, 1);
+    margin-top: 15px;
+}
+p{
+  line-height: 20px;
+  font-size: 13px;
+}
+.icons{
+  display: inline-block;
+      vertical-align: middle;
+      color: white;
+      margin-top: 25px;
+      font-size: 12px;
+}
+.icon-1-comments{
+  display: inline-block;
+    vertical-align: middle;
+    width: 156px;
+    background-color: RGBA(163, 179, 191, 1);
+}
+.article-icon-comment{
+  display: inline-block;
+    height: 30px;
+    width: 34px;
+    background-color: RGBA(163, 179, 191, 1);
+    vertical-align: middle;
+    position: relative;
+}
+.fa-comment-o{
+  background-color: RGBA(94, 104, 111, 1);
+    height: 30px;
+    width: 34px;
+    vertical-align: middle;
+}
+.fa-comment-o::before {
+    content: "\f0e5";
+    position: absolute;
+    padding-top: 7px;
+    right: 11px;
+color: white;
+  }
+.Read-Comments{
+display: inline-block;
+vertical-align: middle;
+}
+.read-later{
+display: inline-block;
+vertical-align: middle;
+}
+.icon-2-read-later{
+  display: inline-block;
+    vertical-align: middle;
+    width: 126px;
+    background-color: RGBA(163, 179, 191, 1);
+    margin-left: 0px;
+}
+.article-icon-read{
+  display: inline-block;
+    height: 30px;
+    width: 34px;
+    background-color: RGBA(163, 179, 191, 1);
+    vertical-align: middle;
+    position: relative;
+}
+.fa-recycle{
+  background-color: RGBA(96, 104, 111, 1);
+  height: 30px;
+  width: 34px;
+  vertical-align: middle;
+}
+.fa-recycle::before{
+  vertical-align: middle;
+  content: "\f1b8";
+  position: absolute;
+  padding-top: 7px;
+  right: 11px;
+  color: white;
+}
+.icon-3-share{
+  display: inline-block;
+  vertical-align: middle;
+  width: 156px;
+  background-color: RGBA(32, 109, 179, 1);
+}
+.article-icon-share{
+  display: inline-block;
+    height: 30px;
+    width: 34px;
+    position: relative;
+}
+.fa-share-square{
+  height: 30px;
+  width: 34px;
+  vertical-align: middle;
+  position: relative;
+  background-color: RGBA(13, 51, 82, 1);
+}
+.fa-share-square::before{
+  content: "\f14d";
+  vertical-align: middle;
+position: absolute;
+padding-top: 7px;
+right: 11px;
+color: white;
+}
+.Share{
+  display: inline-block;
+    vertical-align: middle;
+    width: 115px;
+}
+.footer{
+  width: 100%;
+min-width: 1300px;
+height: 572px;
+position: relative;
+margin: auto;
+}
+.footer-heading{
+  position: absolute;
+      padding-top: 45px;
+      width: 100%;
+      text-align: center;
+      font-size: 56px;
+      color: RGBA(13, 51, 82, 1);
+}
+.footer-nav{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 96px;
+  background-color: RGBA(13, 51, 82, 1);
+color: white;
+}
+.footer-list-1{
+  float: left;
+  margin-left: 162px;
+  letter-spacing: 1px;
+display: inline-block;
+width: 360px;
+height: 63px;
+}
+.footer-list-tiy{
+  display: inline-block;
+    font-size: 12px;
+    position: relative;
+    padding-top: 14px;
+    width: 391px;
+}
+.footer-list-icon-tiy{
+  display: inline-block;
+height: 49px;
+width: 59px;
+}
+.logo-tiy{
+  height: 70px;
+  width: 55px;
+  vertical-align: middle;
+}
+.footer-list-icon-tiy-text{
+  width: 300px;
+  padding-left: 1px;
+}
+.nav-list-2{
+  float: right;
+display: inline-block;
+width: 320px;
+font-size: 12px;
+margin-top: 41px;
+padding-right: 160px;
+letter-spacing: 1px;
+}
+.nav-list-2-item{
+  display: inline-block;
+  padding-left: 2px;
+}
+.nav-list-2-item:not(:last-child){
+  padding-right: 4px;
+  border-right: 1px solid RGBA(94, 104, 111, 1);
+}
+.footer-links{
+  position: absolute;
+    width: 100%;
+    bottom: 100px;
+    font-size: 27px;
+      color: black;
+      top: 146px;
+}
+
+.footer-post1, .footer-post2, .footer-post3, .footer-post4{
+  float: left;
+display: inline-block;
+bottom: 0;
+width: 325px;
+height: 330px;
+}
+
+.f-p-1,.f-p-2,.f-p-4 {
+  display: block;
+padding-top: 288px;
+}
+.f-p-3{
+display: block;
+padding-top: 261px;
+}
+.f-p-1{
+  padding-left: 18px;
+  letter-spacing: 1px;
+}
+.f-p-2{
+  padding-left: 21px;
+  letter-spacing: 1px;
+}
+.f-p-3{
+  padding-left: 24px;
+  padding-top: 246px;
+  letter-spacing: 1.2px;
+}
+.f-p-4{
+  padding-left: 26px;
+  letter-spacing: 1px;
+}
+.footer-post1{
+  background: url(http://s3.favim.com/orig/38/abs-beach-beautiful-boy-boys-Favim.com-314272.jpg
+); fixed center no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 324px;
+  height: 330px;
+}
+.footer-post2{
+  background: url(http://thefullpint.com/wp-content/uploads/2012/09/sampler-glasses.jpeg); fixed center no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 324px;
+  height: 330px;
+}
+.footer-post3{
+  background: url(images/hangover3.jpg); fixed center no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 324px;
+  height: 330px;
+}
+.footer-post4{
+  background: url(http://timetogethervacations.com/wp-content/uploads/blogger/-Uzdkfcay4S0/T8QBiHoCXZI/AAAAAAAAA5w/U0VK56k2UmI/s1600/Liquor_bottles.jpg); fixed center no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 324px;
+  height: 330px;
+}
+.footer-post1::before{
+  content: "";
+  position:absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(32, 109, 179, .6);
+  z-index: 9999;
+}
+.footer-post2::before{
+  content: "";
+  position:absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(32, 109, 179, .6);
+  z-index: 9999;
+}
+.footer-post3::before{
+  content: "";
+  position:absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(32, 109, 179, .6);
+  z-index: 9999;
+}
+.footer-post4::before{
+  content: "";
+  position:absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(32, 109, 179, .6);
+  z-index: 9999;
+}
+.footer-post1:hover::before{
+  background-color: rgba(0, 0, 0, 0);
+}
+.footer-post2:hover::before{
+  background-color: rgba(0, 0, 0, 0);
+}.footer-post3:hover::before{
+  background-color: rgba(0, 0, 0, 0);
+}.footer-post4:hover::before{
+  background-color: rgba(0, 0, 0, 0);
+}
+.footer-links:hover{
+  color: white;
+}
