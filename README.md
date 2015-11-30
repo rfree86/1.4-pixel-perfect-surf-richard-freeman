@@ -1,0 +1,2 @@
+This was my first weekend project after a week of learning CSS and HTML. The goal of this assignment was to create a pixel perfect recreation of an image. Unfortunately, I was not able to finish over the weekend and probably spent a little too much time trying to match the fonts styles.
+![](https://raw.githubusercontent.com/TIY-GVL-FEE-2015-August/assignments/master/1.4-pixel-perfect/assets/surf-and-paddle.png)
